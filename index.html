@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Task list on jQuery</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="task__content">
+			<h2 class="task__title">Список дел:</h2>
+			<div class="task__none">Список дел пуст..</div>
+			<ul class="task__list"></ul>
+		</div>	
+		<div class="task__form">
+			<h2 class="task__form__title">Добавить новое дело</h2>
+			<form class="task__form__wrapper">
+				<label class="task__label">
+					*Название
+				    <input type="text" name="name" placeholder="">
+			    </label>
+			    <label class="task__label">
+			    	*Описание
+				    <textarea name="message" placeholder=""></textarea>
+			    </label>
+			    <button class="task__add">Добавить дело</button>
+			</form>
+		</div>
+	</div>	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
